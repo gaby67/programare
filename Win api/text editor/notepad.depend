@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1336936189 source:i:\nevoie\win32 api\notepad\main.cpp
+	"declarari.h"
+	"functii.h"
+
+1336225874 i:\nevoie\win32 api\notepad\declarari.h
+	<windows.h>
+	<iostream>
+	<string>
+	<fstream.h>
+	<Richedit.h>
+	"resource.h"
+	<TCHAR.h>
+	<commctrl.h>
+
+1336844051 i:\nevoie\win32 api\notepad\resource.h
+
+1336844434 i:\nevoie\win32 api\notepad\functii.h
+
+1336845009 source:i:\nevoie\win32 api\notepad\menu.rc
+	"resource.h"
+
+1336936445 source:i:\nevoie\win32 api\notepad\functii.cpp
+	"declarari.h"
+
+1342534703 source:e:\nevoie\win32 api\notepad\main.cpp
+	"declarari.h"
+	"functii.h"
+
+1342533944 e:\nevoie\win32 api\notepad\declarari.h
+	<windows.h>
+	<iostream>
+	<string>
+	<fstream.h>
+	<Richedit.h>
+	"resource.h"
+	<TCHAR.h>
+	<commctrl.h>
+
+1336844051 e:\nevoie\win32 api\notepad\resource.h
+
+1342534333 e:\nevoie\win32 api\notepad\functii.h
+
+1336845009 source:e:\nevoie\win32 api\notepad\menu.rc
+	"resource.h"
+
+1342534536 source:e:\nevoie\win32 api\notepad\functii.cpp
+	"declarari.h"
+

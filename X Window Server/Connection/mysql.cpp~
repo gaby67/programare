@@ -1,0 +1,8 @@
+#include <stdio.h>
+void main(){
+	int pipe[2];
+	char buffer[100];
+	pipe = popen("mysql","r");
+	fread(buffer,1,100,pipe[0]);
+	printf("%s",buffer);
+}

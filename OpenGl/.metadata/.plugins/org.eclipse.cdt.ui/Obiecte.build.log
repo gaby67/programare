@@ -1,0 +1,71 @@
+04:10:35 **** Incremental Build of configuration Debug for project Obiecte ****
+make all 
+Building target: Obiecte
+Invoking: GCC C++ Linker
+g++  -o "Obiecte"  ./src/Draw.o ./src/Nevoie.o   -lSDL
+./src/Draw.o: In function `Draw::draw(Draw::Type)':
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:26: undefined reference to `glClear'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:27: undefined reference to `glLoadIdentity'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:29: undefined reference to `glPushMatrix'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:30: undefined reference to `glOrtho'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:50: undefined reference to `glPopMatrix'
+./src/Draw.o: In function `Draw::setupGL()':
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:70: undefined reference to `glDisable'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:71: undefined reference to `glEnable'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:72: undefined reference to `glBlendFunc'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:74: undefined reference to `glClearColor'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:75: undefined reference to `glViewport'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:77: undefined reference to `glMatrixMode'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:78: undefined reference to `glLoadIdentity'
+./src/Draw.o: In function `Draw::drawLine()':
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:82: undefined reference to `glBegin'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:83: undefined reference to `glColor3f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:84: undefined reference to `glVertex2f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:85: undefined reference to `glVertex2f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:86: undefined reference to `glEnd'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:88: undefined reference to `glBegin'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:89: undefined reference to `glColor3f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:90: undefined reference to `glVertex2f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:91: undefined reference to `glVertex2f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:92: undefined reference to `glEnd'
+./src/Draw.o: In function `Draw::drawTriangle()':
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:96: undefined reference to `glBegin'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:97: undefined reference to `glColor3f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:98: undefined reference to `glVertex2f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:100: undefined reference to `glColor3f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:101: undefined reference to `glVertex2f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:103: undefined reference to `glColor3f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:104: undefined reference to `glVertex2f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:105: undefined reference to `glEnd'
+./src/Draw.o: In function `Draw::drawSquare()':
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:109: undefined reference to `glBegin'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:110: undefined reference to `glColor3f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:111: undefined reference to `glVertex2f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:112: undefined reference to `glVertex2f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:114: undefined reference to `glColor3f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:115: undefined reference to `glVertex2f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:116: undefined reference to `glVertex2f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:117: undefined reference to `glEnd'
+./src/Draw.o: In function `Draw::drawBetterSquare()':
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:121: undefined reference to `glBegin'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:122: undefined reference to `glColor3f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:123: undefined reference to `glVertex2f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:124: undefined reference to `glVertex2f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:126: undefined reference to `glColor3f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:127: undefined reference to `glVertex2f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:128: undefined reference to `glVertex2f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:129: undefined reference to `glEnd'
+./src/Draw.o: In function `Draw::drawSky()':
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:139: undefined reference to `glBegin'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:140: undefined reference to `glColor3f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:145: undefined reference to `glVertex2f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:147: undefined reference to `glEnd'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:148: undefined reference to `glBegin'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:149: undefined reference to `glColor3f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:154: undefined reference to `glVertex2f'
+/home/alx/OpenGl/Obiecte/Debug/../src/Draw.cpp:156: undefined reference to `glEnd'
+collect2: error: ld returned 1 exit status
+make: *** [Obiecte] Error 1
+
+04:10:36 Build Finished (took 422ms)
+

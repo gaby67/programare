@@ -1,0 +1,10 @@
+04:12:20 **** Incremental Build of configuration Debug for project Primitive ****
+make all 
+Building target: Primitive
+Invoking: GCC C++ Linker
+g++  -o "Primitive"  ./src/Draw.o ./src/Nevoie.o   -lSDL -lGL -lGLU
+Finished building target: Primitive
+ 
+04:12:24 **** Incremental Build of configuration Debug for project Primitive ****
+make all 
+make: Nothing to be done for `all'.
